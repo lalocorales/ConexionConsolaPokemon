@@ -6,6 +6,7 @@ namespace Conexion
     {
         static void Main()
         {
+            //ESTO ES UN COMENTARIO NUEVO PARA GITHUB
             Conexion conexion = new Conexion();
             PokemonEntrenador p = new PokemonEntrenador();
             IPokemonEntrenadorRepository repository = new PokemonEntrenadorRepository(conexion);
